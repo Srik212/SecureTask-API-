@@ -53,4 +53,4 @@ def delete_task(task_id):
     return jsonify({"message": "Task deleted"}), 200
 
 if __name__ == '__main__':
-    app.run(debug=os.getenv("FLASK_DEBUG") == "True", port=5000)
+    app.run(debug=os.getenv("FLASK_DEBUG", False), port=5000)
