@@ -1,3 +1,4 @@
+API_KEY = "sk-secret-1234567890abcdef" 
 from flask import Flask, jsonify, request
 # Flask - main class
 # jsonify - function to convert data to JSON format
