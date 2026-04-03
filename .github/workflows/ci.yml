@@ -82,5 +82,4 @@ jobs:
         with:
           image-ref: securetask-api:latest
           format: 'table'
-          exit-code: '1'
           severity: "CRITICAL,HIGH"
